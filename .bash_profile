@@ -43,6 +43,9 @@ alias googlecc='java -jar ~/Development/Tools/closure-compiler/compiler.jar'
 alias mysql_start='sudo /Library/StartupItems/MySQLCOM/MySQLCOM start'
 alias mysql_stop='sudo /Library/StartupItems/MySQLCOM/MySQLCOM stop'
 
+# trace.js
+alias tracejs='node ~/trace.js '
+
 # X11 -> XQuartz
 export CPPFLAGS=-I/opt/X11/include
 
