@@ -6,7 +6,6 @@ then
   mv ~/.bash_profile ~/.bash_profile.old
 fi
 ln -s ~/.dotfiles/.bash_profile ~/.bash_profile
-ln -s ~/.dotfiles/.inputrc ~/.inputrc
 
 # Homebrew
 #
@@ -22,7 +21,7 @@ fi
 # Install homebrew packages
 brew install grc coreutils spark bash-completion wget
 brew install git git-flow
-brew install node
+brew install node go
 brew install rbenv ruby-build rbenv-vars
 brew install memcached redis mysql postgres mongodb elasticsearch
 brew install heroku-toolbelt
